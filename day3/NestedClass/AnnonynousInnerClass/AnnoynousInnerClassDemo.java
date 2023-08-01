@@ -1,5 +1,4 @@
-
- interface  Person {
+interface  Person {
     String name="Ashutosh Tigga";
     void getName();
 }

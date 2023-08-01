@@ -19,5 +19,7 @@ class Demo{
             }
         };
         thread.run();
+        thread.run();
+        thread.run();''
     }
 }
