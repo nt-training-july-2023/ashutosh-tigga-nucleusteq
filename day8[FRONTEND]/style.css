@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(to right , #71b7e6 , #9b59b6);
+    margin:0px;
+    padding: 0px;
+    display: flex;
+}
+#main_div{
+    align-items: center;
+    height: 70vh;
+    width: 100vh;
+    background-color: white;
+    margin-top:12.5vh;
+    margin-left: 50vh;
+    border-radius: 8px;
+}
+#header_div{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 25px;
+}
+.body_div{
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 100%;
+}
+#input_div1{
+   display: flex;
+   margin-top: 15px;
+}
+#input_div2{
+    display: flex;
+    margin-top: 15px;
+}
+#input_div3{
+    display: flex;
+    margin-top: 15px;
+}
+
+.input_div{
+    width: 50%;
+}
+.input{
+    margin-top: 5px;
+    height: 25px;
+    width: 80%;
+    border-color: rgb(255, 251, 251);
+}
+#footer_div{
+    padding-left: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+#input_button{
+    width: 92%;
+    background-image: linear-gradient(to right , #71b7e6 , #9b59b6);    
+    border-style: none;
+    height: 30px;
+    border-radius: 4px;
+  
+}
+#input_div4{
+    margin-top: 25px;
+    width: 92%;
+   
+}
+#input_sub_div4{
+    width: 100%;
+    display: flex;
+    
+}
+#input_sub_div4 .input_div{
+  
+    width: 30%;
+    margin: 10px;
+}
+#input_div #input_subdiv .radio_input{
+    background-color    : gray;
+}

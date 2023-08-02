@@ -1,5 +1,6 @@
+import java.util.Comparator;
 
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee>, Comparator<Employee> {
     private String name;
     private int id;
     private double salary;
@@ -40,9 +41,13 @@ public class Employee implements Comparable<Employee>{
     }
 
     @Override
-    public  int compareTo(Employee employee){
-        return employee.id-this.id;
+    public int compareTo(Employee employee) {
+        return employee.id - this.id;
     }
 
-    
+    @Override
+    public int compare(Employee emp1, Employee emp2) {
+        return emp1.id - emp2.id;
+    }
+
 }
