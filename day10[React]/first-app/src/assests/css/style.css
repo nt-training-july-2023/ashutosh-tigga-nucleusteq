@@ -1,16 +1,20 @@
 #body{
     margin:0px;
     padding: 0px;
-    background-image: linear-gradient(to right , #71b7e6 , #9b59b6);
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    /* background-image: linear-gradient(to right , #71b7e6 , #9b59b6); */
     
 }
 #main_div{
-    align-items: center;
-    height: 70vh;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-self: center;
+    /* height: 70vh; */
     width: 100vh;
     background-color: white;
-    margin-top:12.5vh;
-    margin-left: 50vh;
     border-radius: 8px;
 }
 #header_div{
@@ -54,7 +58,7 @@
     width: 92%;
     background-image: linear-gradient(to right , #71b7e6 , #9b59b6);    
     border-style: none;
-    height: 30px;
+    height: 5vh;
     border-radius: 4px;
   
 }

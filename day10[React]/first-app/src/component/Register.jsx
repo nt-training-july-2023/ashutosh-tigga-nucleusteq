@@ -27,6 +27,10 @@ const Register = () => {
     }
 
     return (
+
+
+
+        
         <div id="body">
             <div id="main_div">
 
@@ -93,6 +97,9 @@ const Register = () => {
                             </div>
                         </div>
                     </div>
+
+                    <input type="submit" id="input_button" value="Register" onClick={submitData} />
+
                     {/* <!--end of 4th input block--> */}
                 </div>
                 {/* <!--end of body_div block--> */}
