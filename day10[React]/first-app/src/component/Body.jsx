@@ -118,7 +118,9 @@ const Body = () => {
 
     const save = (e) => {
         e.preventDefault();
-        const newEntry = { fullName: fullName, userName: userName, email: email, number: number, gender: gender, password: password };
+        // const newEntry = { id:new Date().getTime().toString() , fullName: fullName, userName: userName, email: email, number: number, gender: gender, password: password };
+      
+        const newEntry = { id:new Date().getTime().toString() , fullName, userName, email, number, gender, password };
         setAllEntry([...allEntry, newEntry]);
         console.log(`all entry :${allEntry}`)
     }
@@ -131,6 +133,13 @@ const Body = () => {
         ValidatePassword();
         VaidateConfirmPassword();
         save(e);
+        setFullName("");
+        setUserName("");
+        setEmail("");
+        setGender("");
+        setPassword("");
+        setConfirmPassword("");
+        setNumber("");
     }
     return (
         <>
@@ -214,7 +223,7 @@ const Body = () => {
                 {
                     allEntry.map((currElement) => {
                         return (
-                            <div className="showData">
+                            <div className="showData" key={currElement.id}>
                                 <p>   Full Name : <span>{currElement.fullName} </span></p>
                                 <p>   Email : <span>{currElement.email}</span> </p>
                                 <p>   Username : <span>{currElement.userName}</span> </p>
