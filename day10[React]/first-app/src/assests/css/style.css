@@ -49,11 +49,6 @@
     width: 80%;
     border-color: rgb(255, 251, 251);
 }
-#footer_div{
-    padding-left: 25px;
-    width: 100%;
-    margin-top: 20px;
-}
 #input_button{
     width: 92%;
     background-image: linear-gradient(to right , #71b7e6 , #9b59b6);    
@@ -89,4 +84,26 @@
     margin-top:-15px;
     margin-left:0px;
     border-radius: 20px;
+}
+
+#footer_div input{
+    
+    width: 85%;
+    margin:20px 7%;
+}
+
+label{
+    font-size: small;
+}
+.showData{
+    justify-content:center ;
+    align:center;
+    display: flex;
+    background-color:seashell ;
+    padding: 5px;
+    margin: 5px;
+}
+.showData span{
+    color: #71b7e6;
+    font-size: large;
 }
